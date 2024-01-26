@@ -1,0 +1,21 @@
+/** X-Small devices (portrait phones, less than 576px) **/
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+	//Custom Styles HERE
+}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+	//Custom Styles HERE
+}
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {
+	//Custom Styles HERE
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@include media-breakpoint-down(xl) {
+	//Custom Styles HERE
+}
