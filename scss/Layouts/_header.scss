@@ -1,0 +1,24 @@
+.header {
+	background: bg-img-dark-overlay('../img/intro-bg.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	.social {
+		bottom: 3.125rem;
+		a {
+			i {
+				transition: all 0.5s ease-in-out;
+			}
+
+			&:hover {
+				i {
+					color: $primary !important;
+				}
+			}
+		}
+	}
+
+	.roles {
+		font-family: $secondary-font;
+	}
+}

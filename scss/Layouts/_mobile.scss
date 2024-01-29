@@ -2,7 +2,17 @@
 
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
-	//Custom Styles HERE
+	.header {
+		.social {
+			i {
+				font-size: 1.875rem !important;
+			}
+		}
+
+		.roles {
+			font-size: 1.125rem !important;
+		}
+	}
 }
 
 // Medium devices (tablets, less than 992px)
