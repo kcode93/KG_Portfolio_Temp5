@@ -6,3 +6,18 @@
 		}
 	}
 }
+
+.profile {
+	.progress-label {
+		font-family: $secondary-font;
+	}
+	.progress {
+		height: 2rem;
+
+		.progress-bar {
+			font-family: $secondary-font;
+			//width: 90% !important;
+			font-weight: bold;
+		}
+	}
+}
