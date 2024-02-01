@@ -50,6 +50,22 @@
 			}
 		}
 	}
+
+	.stats {
+		.stat {
+			border-right: 0 !important;
+			border-left: 0 !important;
+			border-bottom: 2px solid white !important;
+			margin-bottom: 2rem !important;
+			h3 {
+				margin-bottom: 1rem !important;
+			}
+		}
+
+		.last-stat {
+			border-bottom: none !important;
+		}
+	}
 }
 
 // Large devices (desktops, less than 1200px)
