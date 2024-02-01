@@ -39,3 +39,17 @@
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+.contact {
+	form {
+		::placeholder {
+			color: white;
+			opacity: 1; /* Firefox */
+		}
+
+		::-ms-input-placeholder {
+			/* Edge 12 -18 */
+			color: red;
+		}
+	}
+}
