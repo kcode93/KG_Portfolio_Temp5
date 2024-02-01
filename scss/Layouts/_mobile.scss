@@ -2,28 +2,16 @@
 
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
-	// .header {
-	// 	.social {
-	// 		i {
-	// 			font-size: 1.875rem !important;
-	// 		}
-	// 	}
+	#main-footer {
+		.copyright {
+			text-align: center;
+		}
 
-	// 	.roles {
-	// 		font-size: 1.125rem !important;
-	// 	}
-	// }
-
-	// .about {
-	// 	.about-content {
-	// 		display: flex;
-	// 		flex-direction: column;
-
-	// 		.lead {
-	// 			text-align: center;
-	// 		}
-	// 	}
-	// }
+		.hstack {
+			text-align: center;
+			justify-content: center !important;
+		}
+	}
 }
 
 // Medium devices (tablets, less than 992px)
